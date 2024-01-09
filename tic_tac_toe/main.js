@@ -18,12 +18,15 @@ const winningPattern=[
     [0,4,8],
     [2,4,6] 
 ];
-// let player1=prompt("Name of Player1 :")
-// let player2=prompt("Name of Player2 :")
-// if(player1===player2){
-//     alert('Players name cannot be the same')
-//     player2=prompt("Name of Player2 :")
-// }
+let player1=prompt("Name of Player1 :")
+let player2=prompt("Name of Player2 :")
+if(player1===player2){
+    alert('Players name cannot be the same')
+    player2=prompt("Name of Player2 :")
+}
+p1.innerText=`${player1} is- X`
+p2.innerText=`${player2} is- O`
+
 boxes.forEach((box) => {
     box.addEventListener("click",()=>{
         if(turnx){
