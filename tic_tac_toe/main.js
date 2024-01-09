@@ -5,7 +5,6 @@ let msg=document.querySelector("#msg");
 let msgcontainer=document.querySelector(".msg-container")
 
 let turnx =true;
-
 const winningPattern=[
     [0,1,2],
     [3,4,5],
@@ -19,7 +18,6 @@ const winningPattern=[
 
 boxes.forEach((box) => {
     box.addEventListener("click",()=>{
-        console.log('box was clicked')
         if(turnx){
             box.innerText="X";
             turnx=false;
@@ -58,9 +56,6 @@ const disableBoxes=()=>{
         box.disabled=true;
     }
 }
-
-
-
 const resetGame=()=>{
     turnx=true;
     enableBoxes();
