@@ -39,3 +39,23 @@ body{
     color: white;
     box-shadow: 0 0 1rem rgb(0, 0, 0,0.15);
 }
+
+#new{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #D282A6;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 1rem rgb(0, 0, 0,0.15); 
+}
+
+#msg{
+    color: #3A3238;
+    font-size: 8vmin;
+}
+.msg-container{
+    height:30vmin
+}
+.hide{
+    display:none;
+}
