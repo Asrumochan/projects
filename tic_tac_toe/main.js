@@ -56,7 +56,6 @@ const checkForWinner =(count)=>{
         {
              msg.innerText= `Game was a DRAW`;
              msgcontainer.classList.remove("hide") ;
-             count=0;
         }
       }
     }
@@ -75,6 +74,7 @@ const disableBoxes=()=>{
 }
 const resetGame=()=>{
     turnx=true;
+    count=0;
     enableBoxes();
     msgcontainer.classList.add("hide");
 }
