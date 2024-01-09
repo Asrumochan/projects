@@ -53,7 +53,7 @@ const checkForWinner =(count)=>{
             disableBoxes();
         }
         else if(count===9)
-        {    console.log("game darw")
+        {  
              msg.innerText= `Game was a DRAW`;
              msgcontainer.classList.remove("hide") ;
         }
