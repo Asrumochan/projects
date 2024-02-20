@@ -25,13 +25,13 @@ let compScore=0;
     if (userWin) {
         userScore++;
         userScorePara.innerText=userScore;
-        msg.innerText=`You Win! ${userChoice} beats ${compChoice}`;
+        msg.innerText=`You Win! your ${userChoice} beats ${compChoice}`;
         msg.style.backgroundColor="green";
     }
     else{
         compScore++;
         compScorePara.innerText=compScore;
-        msg.innerText=`You Lost! ${compChoice} beats ${userChoice}`
+        msg.innerText=`You Lost! ${compChoice} beats your ${userChoice}`
         msg.style.backgroundColor="red"
         
 
