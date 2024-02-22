@@ -37,7 +37,7 @@ const updateExchangeRate =async ()=>{
     let amtVal= amount.value;
     if(amtVal ==="" || amtVal <1){
         amtVal=1;
-        amount.value="1";
+        amount.value="1"
     }
 
     const URL= `${base_url}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
